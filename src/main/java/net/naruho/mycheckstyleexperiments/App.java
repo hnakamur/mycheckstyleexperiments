@@ -10,4 +10,8 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
+
+    private int returnUsingParenthesis() {
+      return (1 == 1 ? 1 : 0);
+    }
 }
